@@ -1,0 +1,8 @@
+Dear ${PERSON_NAME},
+Message enticing client to make a new appointment.
+
+
+Feel free to call us at ${PHONE}
+Yours Truly,
+
+${YOUR_NAME}
