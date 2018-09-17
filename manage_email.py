@@ -43,7 +43,10 @@ def create_template(filename) -> Template:
 
 
 def create_message(recipient_list: List[Client], business_number: str, your_name: str) ->List[MIMEMultipart]:
-    """Creates an email message text file. Returns a list of MIMEMultipart messages for each recipient with an email."""
+    """
+    Creates an email message text file. Returns a list of MIMEMultipart messages for each recipient with an email.
+    Make sure to edit message.txt with your custom message.
+    """
 
     msg_list = []
     for recipient in recipient_list:

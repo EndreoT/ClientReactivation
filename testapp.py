@@ -10,7 +10,6 @@ from manage_datetime import default_rem_date
 import manage_db as mdb
 
 
-
 class TestManageDatetime(unittest.TestCase):
 
     def setUp(self):
