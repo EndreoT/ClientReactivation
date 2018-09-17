@@ -20,8 +20,8 @@ sender_password = "**********"
 # host_address = 'smtp.gmail.com'
 # port_number = 465
 
-host_address = 'smtp.gmail.com'
-port_number = 465
+host_address = "host_address"
+port_number = "port_number"
 
 
 def validate_email(email: str) -> bool:
