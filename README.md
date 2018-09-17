@@ -14,7 +14,7 @@ add_bulk_clients.py is used when the user wishes to populate the bulk_client_sta
 All clients must have a first and last name, as well as a last visit date. A reminder date and email address are optional, but recommended.
 
 __main__.py brings up a GUI and displays which clients should be contacted based on their reminder date. The user can then send 
-reminder emails directly from this interface. 
+reminder emails directly from this interface. Make sure to edit your information(email, login password, etc.) in manage_email.py
 
 It is recommended to schedule __main__.py to run once a day using a task scheduling program so as to maximize client contact. Windows users
 can use Task Scheduler, Cron Jobs for Linux, and Automator for Mac.
