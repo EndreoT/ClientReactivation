@@ -5,7 +5,7 @@ Businesses often lose business from clients who cancel appointments and do not r
 appointment but forget to do so. This project aims to solve that by setting up a reminder system to alert a business to when a client 
 should be contacted for reactivation. 
 
-Client infomation is stored in a NOSQL database via the tinydb package. Installation instructions and furter information on the
+Client infomation is stored in a NOSQL database via the tinydb package. Installation instructions and further information on the
 database can be found at https://github.com/msiemens/tinydb. If you are installing tinydb using an Anaconda virtual environment, the
 easiest way I found is to install with conda run using the command: conda install -c conda-forge tinydb
 
